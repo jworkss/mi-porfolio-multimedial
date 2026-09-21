@@ -1,0 +1,26 @@
+{
+  "nombre": "Marcos ",
+  "apellido": "Duarte",
+  "apodo": "Jay",
+  "educacion": "Diseñador Multimedial",
+  "titulos": ["Técnico en Animación Digital", "Diseñador Multimedial"],
+  "correo": "marcosjavierduarte@ejemplo.com",
+  "bio": "Diseñador multimedial enfocado en narrativas visuales, animación, interfaz y desarrollo frontend experimental.",
+  "experienciaLaboral": [
+    {
+      "compania": "Proyecto Autónomo / Freelance",
+      "posicion": "Diseñador Multimedial & Animador",
+      "fechaInicio": "2020",
+      "fechaFin": "Actualidad",
+      "descripcion": "otorgo servicios de diseño multimedial, animación y desarrollo frontend a clientes diversos, creando experiencias visuales interactivas y narrativas."
+    }
+  ],
+  "habilidades": [
+    "After Effects",
+    "Figma / UX-UI",
+    "React & JavaScript",
+    "Blender / 3D",
+    "Tailwind CSS",
+    "Edición Audiovisual"
+  ]
+}
