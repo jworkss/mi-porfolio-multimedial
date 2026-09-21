@@ -65,48 +65,76 @@ export default function App() {
       {/* Contenido principal dinámico */}
       <main className="max-w-6xl mx-auto px-4 sm:px-6 py-12">
         {/* SECCIÓN: INICIO / HOME */}
-        {seccionActiva === 'inicio' && (
-          <section className="flex flex-col-reverse md:flex-row items-center gap-12 py-8">
-            <div className="flex-1 space-y-6">
-              <span className="inline-block bg-[#121212] text-white text-xs uppercase px-3 py-1 font-mono tracking-widest">
-                Portafolio Multimedial
-              </span>
-              <h1 className="text-5xl sm:text-7xl font-black tracking-tight leading-none uppercase">
-                {perfilData.nombre} <br />
-                <span className="text-[#E6391A]">{perfilData.apellido}</span>
-              </h1>
-              <p className="text-lg sm:text-xl font-medium text-neutral-700 max-w-xl leading-relaxed">
-                {perfilData.bio}
-              </p>
-              <div className="flex flex-wrap gap-4 pt-4">
-                <button
-                  onClick={() => setSeccionActiva('proyectos')}
-                  className="bg-[#E6391A] hover:bg-[#c93014] text-white px-6 py-3 font-bold uppercase text-sm tracking-wider border-2 border-[#121212] shadow-[4px_4px_0px_0px_#121212] transition-all active:translate-x-0.5 active:translate-y-0.5 active:shadow-[2px_2px_0px_0px_#121212]"
-                >
-                  Explorar Trabajos
-                </button>
-                <button
-                  onClick={() => setSeccionActiva('contacto')}
-                  className="bg-[#EFECE6] hover:bg-white text-[#121212] px-6 py-3 font-bold uppercase text-sm tracking-wider border-2 border-[#121212] shadow-[4px_4px_0px_0px_#121212] transition-all active:translate-x-0.5 active:translate-y-0.5 active:shadow-[2px_2px_0px_0px_#121212]"
-                >
-                  Contactar
-                </button>
-              </div>
-            </div>
+{seccionActiva === 'inicio' && (
+  <section className="relative py-6 sm:py-12">
+    {/* Franja gráfica horizontal de contraste */}
+    <div className="absolute top-1/2 left-0 right-0 h-28 bg-[#E6391A] -z-10 -translate-y-1/2 border-y-4 border-[#121212] hidden md:block" />
 
-            <div className="w-64 sm:w-80 relative">
-              <div className="absolute inset-0 bg-[#E6391A] translate-x-3 translate-y-3 border-2 border-[#121212]"></div>
-              <div className="relative border-2 border-[#121212] bg-[#121212] overflow-hidden">
-                <img 
-                  src={avatarImg} 
-                  alt={perfilData.nombre} 
-                  className="w-full h-auto object-cover grayscale contrast-125"
-                />
-              </div>
-            </div>
-          </section>
-        )}
+    <div className="flex flex-col-reverse md:flex-row items-center justify-between gap-10">
+      {/* Columna izquierda: Tipografía & Declaración */}
+      <div className="flex-1 space-y-6">
+        <div className="flex items-center gap-3">
+          <span className="bg-[#121212] text-[#EFECE6] text-xs font-mono font-bold tracking-widest px-3 py-1 uppercase border border-[#121212]">
+            Edición 2026 // Portafolio
+          </span>
+          <span className="font-mono text-xs text-neutral-600 font-bold">
+            [Web en constante evolución]
+          </span>
+        </div>
 
+        <div className="space-y-1">
+          <h1 className="text-6xl sm:text-8xl font-black uppercase tracking-tighter leading-none text-[#121212]">
+            {perfilData.nombre}
+          </h1>
+          <h1 className="text-6xl sm:text-8xl font-black uppercase tracking-tighter leading-none text-[#E6391A]">
+  {perfilData.apellido}
+</h1>
+        </div>
+
+        <p className="text-lg sm:text-xl font-medium text-neutral-800 max-w-xl leading-relaxed bg-[#EFECE6]/90 p-3 border-l-4 border-[#121212]">
+          {perfilData.bio}
+        </p>
+
+        {/* Botones estilo risografía / brutalistas */}
+        <div className="flex flex-wrap gap-4 pt-2">
+          <button
+            onClick={() => setSeccionActiva('proyectos')}
+            className="bg-[#E6391A] hover:bg-[#c93014] text-white px-7 py-3.5 font-black uppercase text-sm tracking-wider border-3 border-[#121212] shadow-[5px_5px_0px_0px_#121212] active:translate-x-1 active:translate-y-1 active:shadow-[1px_1px_0px_0px_#121212] transition-all"
+          >
+            Explorar Obras ↓
+          </button>
+          <button
+            onClick={() => setSeccionActiva('contacto')}
+            className="bg-white hover:bg-[#121212] hover:text-white text-[#121212] px-7 py-3.5 font-black uppercase text-sm tracking-wider border-3 border-[#121212] shadow-[5px_5px_0px_0px_#121212] active:translate-x-1 active:translate-y-1 active:shadow-[1px_1px_0px_0px_#121212] transition-all"
+          >
+            Contacto Directo
+          </button>
+        </div>
+      </div>
+
+      {/* Columna derecha: El avatar enmarcado con doble borde serigráfico */}
+      <div className="relative group w-72 sm:w-88">
+        {/* Capa de sombra sólida de impresión desfasada */}
+        <div className="absolute inset-0 bg-[#E6391A] translate-x-4 translate-y-4 border-3 border-[#121212]" />
+        
+        {/* Contenedor principal de la imagen */}
+        <div className="relative border-4 border-[#121212] bg-[#121212] p-1.5 shadow-[8px_8px_0px_0px_#121212]">
+          <div className="overflow-hidden border-2 border-[#EFECE6]/40">
+            <img 
+              src={avatarImg} 
+              alt={perfilData.nombre} 
+              className="w-full h-auto object-cover grayscale contrast-125 brightness-95 filter group-hover:scale-105 transition-transform duration-500"
+            />
+          </div>
+          <div className="flex justify-between items-center text-[10px] font-mono text-[#EFECE6] px-2 pt-2 uppercase">
+            <span>FIG. 01 — PERFIL</span>
+            <span className="text-[#E6391A] font-bold">● REC</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+)}
         {/* SECCIÓN: SOBRE MÍ */}
         {seccionActiva === 'sobre-mi' && (
           <section className="space-y-8 animate-fadeIn">
@@ -116,7 +144,7 @@ export default function App() {
             <div className="grid md:grid-cols-3 gap-8">
               <div className="md:col-span-2 space-y-4 text-lg">
                 <p>
-                  Soy <strong>{perfilData.nombre} {perfilData.apellido}</strong> (conocido como <em>{perfilData.apodo}</em>). Me especializo en combinar lenguaje visual analógico y gráfico con entornos digitales modernos.
+                  Soy <strong>{perfilData.apodo}</strong> (<em>{perfilData.nombre} {perfilData.apellido}</em>). Me especializo en transportar lenguaje analógico a entornos digitales.
                 </p>
                 <p className="text-neutral-700">
                   Mi enfoque de trabajo une la experimentación del diseño gráfico, el montaje audiovisual y el desarrollo frontend interactivo para generar interfaces que escapen a la monotonía visual actual.

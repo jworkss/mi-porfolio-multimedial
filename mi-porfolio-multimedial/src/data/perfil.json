@@ -4,7 +4,7 @@
   "apodo": "Jay",
   "educacion": "Diseñador Multimedial",
   "titulos": ["Técnico en Animación Digital", "Diseñador Multimedial"],
-  "correo": "marcosjavierduarte@ejemplo.com",
+  "correo": "marcosjavierduarte@gmail.com",
   "bio": "Diseñador multimedial enfocado en narrativas visuales, animación, interfaz y desarrollo frontend experimental.",
   "experienciaLaboral": [
     {
@@ -17,9 +17,10 @@
   ],
   "habilidades": [
     "After Effects",
+    "Premiere Pro",
     "Figma / UX-UI",
     "React & JavaScript",
-    "Blender / 3D",
+    "p5js / Processing",
     "Tailwind CSS",
     "Edición Audiovisual"
   ]
