@@ -1,38 +1,50 @@
 [
   {
     "id": 1,
-    "nombre": "Identidad Gráfica & Motion Brutalista",
-    "categoria": "Animación / Marca",
-    "descripcion": "Exploración estética basada en risografía, texturas de semitonos y animación de corte tipográfico contemporáneo.",
-    "tecnologias": ["After Effects", "Illustrator", "Photoshop"],
-    "roles": ["Director de Arte", "Motion Designer"],
-    "url": "https://ejemplo.com/proyecto1",
-    "github": "https://github.com/tu-usuario/proyecto1",
-    "imagen": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=1200&q=80",
+    "nombre": "🛍️ Scratch & Bars - Landing Page E-commerce",
+    "categoria": "Desarrollo Web",
+    "descripcion": "Este repositorio contiene el código fuente del landing page para \"Scratch & Bars\", un sitio web de e-commerce de una sola página (SPA) enfocado en la venta de streetwear y moda de diseñador. El proyecto está construido desde cero con HTML5, CSS3 y JavaScript moderno, utilizando Bootstrap 5 como framework principal.",
+    "tecnologias": ["html", "CSS", "JS"],
+    "roles": ["Frontend Dev", "UI Designer"],
+    "url": "https://jworkss.github.io/S-B/",
+    "github": "https://github.com/jworkss/S-B",
+    "imagen": "https://landing.epicode.com/wp-content/uploads/2022/08/html-e-css-1.jpg",
     "video": ""
   },
   {
     "id": 2,
-    "nombre": "Interface Experimental Web SPA",
-    "categoria": "Desarrollo Web",
-    "descripcion": "Diseño y desarrollo de una aplicación web de alto contraste con transiciones reactivas y modularidad en componentes.",
-    "tecnologias": ["React", "Tailwind CSS", "Vite"],
-    "roles": ["Frontend Dev", "UI Designer"],
-    "url": "https://ejemplo.com/proyecto2",
-    "github": "https://github.com/tu-usuario/proyecto2",
-    "imagen": "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&w=1200&q=80",
-    "video": ""
+    "nombre": "pentagono-inmersivo",
+    "categoria": "Audiovisual",
+    "descripcion": "Proyecto multimedial, sensado de manos para poder mover el espacio visual",
+    "tecnologias": ["touch designer", "media pipe"],
+    "roles": ["UI Designer"],
+    "url": "https://drive.google.com/drive/folders/1-pU_oc2UuUB8TmRj-qn5JGsPGfewuwBN?usp=sharing",
+    "github": "",
+    "imagen": "https://derivative.ca/sites/default/files/field/body-images/Screenshot%202019-09-05%2020.03.18.png",
+    "video": "https://drive.google.com/file/d/1uNhMP-w81MDeatWeY58OM6JwsWXyvb8z/preview"
   },
   {
     "id": 3,
-    "nombre": "Campaña Audiovisual / Cortometraje",
+    "nombre": "Scratch & Bars",
+    "categoria": "Branding / UI Design",
+    "descripcion": "Diseño y desarrollo de manual de marca y landing page de una aplicación web de alto",
+    "tecnologias": ["illustrator", "photoshop", "Figma"],
+    "roles": ["Frontend Dev", "UI Designer"],
+    "url": "https://drive.google.com/drive/folders/1yYYWMtdc4fYNkqlS-liuCnhJxkPPBEm8?usp=sharing",
+    "github": "",
+    "imagen": "https://lh3.googleusercontent.com/d/1BsUvxibcaXdy-yng32zsNxMw_mtnyt-w",
+    "video": ""
+  },
+  {
+    "id": 4,
+    "nombre": "Secuencia de titulos iniciales / Cortometraje",
     "categoria": "Audiovisual",
-    "descripcion": "Pieza audiovisual corta con composición digital, tratamiento de ruido analógico y diseño sonoro envolvente.",
-    "tecnologias": ["Premiere Pro", "DaVinci Resolve", "Audition"],
-    "roles": ["Montajista", "Colorista", "Diseñador Sonoro"],
-    "url": "https://ejemplo.com/proyecto3",
+    "descripcion": "proyecto universitario de secuencia de titulos iniciales para apocalypsis now ",
+    "tecnologias": ["Premiere Pro", "Audition", "After Effects"],
+    "roles": ["Montajista", "Colorista", "Diseñador Sonoro", "motion graphics"],
+    "url": "https://drive.google.com/drive/folders/178HrSwfQ_Btkhzs1Iz4rGDdyZfSf6C0Y?usp=sharing",
     "github": "",
     "imagen": "https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?auto=format&fit=crop&w=1200&q=80",
-    "video": "https://www.w3schools.com/html/mov_bbb.mp4"
+    "video": "https://drive.google.com/file/d/11bAoAQlEAM9fM7sKwrKTUBvfISh_Mwr3/preview"
   }
 ]

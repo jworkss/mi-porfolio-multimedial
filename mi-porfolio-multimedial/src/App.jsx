@@ -354,19 +354,21 @@ export default function App() {
             </div>
 
             {/* Visual: Video o Imagen */}
-            {proyectoSeleccionado.video ? (
-              <video 
-                controls 
-                className="w-full border-2 border-[#121212] bg-black max-h-80 object-cover"
-                src={proyectoSeleccionado.video}
-              />
-            ) : (
-              <img 
-                src={proyectoSeleccionado.imagen} 
-                alt={proyectoSeleccionado.nombre} 
-                className="w-full border-2 border-[#121212] max-h-80 object-cover"
-              />
-            )}
+{proyectoSeleccionado.video ? (
+  <iframe
+    className="w-full border-2 border-[#121212] h-80 bg-black"
+    src={proyectoSeleccionado.video}
+    title={proyectoSeleccionado.nombre}
+    allow="autoplay"
+    allowFullScreen
+  />
+) : (
+  <img 
+    src={proyectoSeleccionado.imagen} 
+    alt={proyectoSeleccionado.nombre} 
+    className="w-full border-2 border-[#121212] max-h-80 object-cover"
+  />
+)}
 
             <p className="text-base text-neutral-800 leading-relaxed">
               {proyectoSeleccionado.descripcion}
