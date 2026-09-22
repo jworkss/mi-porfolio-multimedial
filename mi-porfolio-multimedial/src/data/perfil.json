@@ -8,11 +8,46 @@
   "bio": "Diseñador multimedial enfocado en narrativas visuales, animación, interfaz y desarrollo frontend experimental.",
   "experienciaLaboral": [
     {
-      "compania": "Proyecto Autónomo / Freelance",
-      "posicion": "Diseñador Multimedial & Animador",
-      "fechaInicio": "2020",
-      "fechaFin": "Actualidad",
-      "descripcion": "otorgo servicios de diseño multimedial, animación y desarrollo frontend a clientes diversos, creando experiencias visuales interactivas y narrativas."
+      "compania": "Universidad Nacional de Moreno",
+      "posicion": "Profesor",
+      "fechaInicio": "Marzo 2026",
+      "fechaFin": "Actualmente",
+      "descripcion": "Estudiante auxiliar en la materia de Física para Diseño"
+    },
+    {
+      "compania": "Freelance",
+      "posicion": "Web developer",
+      "fechaInicio": "Marzo 2020",
+      "fechaFin": "Actualmente",
+      "descripcion": "Diseñador/desarrollador Web freelance HTML5, CSS3 y JavaScript desde cero y migrar proyectos para aumentar la escalabilidad de los emprendimientos a entornos robustos y adaptables con AngularJS o React."
+    },
+    {
+      "compania": "HCD Moreno",
+      "posicion": "Desarrollador web",
+      "fechaInicio": "Abril 2023",
+      "fechaFin": "Diciembre 2023",
+      "descripcion": "Mejorar la interfaz grafica del HCD de moreno para hacerla mas accesible en un entorno web."
+    },
+    {
+      "compania": "Municipalidad de Moreno",
+      "posicion": "Jefe de imagen institucional",
+      "fechaInicio": "Diciembre 2015",
+      "fechaFin": "Agosto 2017",
+      "descripcion": "Implementar y automatizar la imagen institucional del municipio de Moreno"
+    },
+    {
+      "compania": "Sindicato de la Industria Cinematográfica Argentina",
+      "posicion": "Jefe de Cámaras y Luces",
+      "fechaInicio": "Agosto 2011",
+      "fechaFin": "Agosto 2013",
+      "descripcion": "Me encargo de reparar y administrar todo el material de cámaras, faroles y equipo de sonido que se utiliza en las distintas cátedras dentro de la institución. Gracias a esto adquirí gran conocimiento tanto en manejo como en reparación de Cámaras de Fílmico 16 y 35mm y en Cámaras de Video Marca SONY y Panasonic. Además de tener la oportunidad de capacitarme constantemente dentro del instituto con lo último en tecnologías y tendencias del cine, televisión y publicidad"
+    },
+    {
+      "compania": "Sindicato de la Industria Cinematográfica Argentina",
+      "posicion": "Administración",
+      "fechaInicio": "Junio 2009",
+      "fechaFin": "Agosto 2011",
+      "descripcion": "Administrativo, contable. Atender y asesorar a alumnos del Centro de Formación Profesional del Sindicato. Cobro de matricula y mensualidad de los alumnos. Llevar acabo un seguimiento de las asistencias de los alumnos."
     }
   ],
   "habilidades": [
