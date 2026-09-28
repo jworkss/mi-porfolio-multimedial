@@ -256,6 +256,13 @@ export default function App() {
                   La integración de video y micro-animaciones no debe saturar la interfaz. Cada elemento cinético debe responder a una intención de navegación clara: retener la atención del usuario sin penalizar el rendimiento ni la fluidez del sitio.
                 </p>
               </article>
+               <article className="bg-white border-2 border-[#121212] p-6 shadow-[4px_4px_0px_0px_#121212]">
+                <span className="text-xs font-mono text-[#E6391A] uppercase font-bold">Reflexión #03</span>
+                <h3 className="text-xl font-black uppercase mt-1">Mecanismos clave del diseño innovador</h3>
+                <p className="mt-2 text-neutral-700 leading-relaxed">
+                  Formulación de problemas antes que soluciones: El diseño no asume el problema inicial como una verdad inamovible; investiga la causa raíz para reformular el reto (problem framing).
+                </p>
+              </article>
             </div>
           </section>
         )}
